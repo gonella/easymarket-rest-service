@@ -1,0 +1,27 @@
+template: Hello, %s!
+defaultName: Stranger
+
+# the only required property is resourcePackage, for more config options see below
+swagger:
+  resourcePackage: com.easymarket.resources.v1
+  
+database:
+  properties:
+   hibernate.dialect: org.hibernate.dialect.H2Dialect 
+   hibernate.generate_statistics: true
+   hibernate.show_sql: true
+   hibernate.format_sql: true
+   hibernate.hbm2ddl.auto: create
+   
+  driverClass: org.h2.Driver
+  user: sa
+  password: sa
+  url: jdbc:h2:./target/test-example
+
+server:
+  applicationConnectors:
+    - type: http
+      port: 0
+  adminConnectors:
+    - type: http
+      port: 0
