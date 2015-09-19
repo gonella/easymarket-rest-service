@@ -20,3 +20,7 @@ mvn clean install
 '''
 java -jar target/easymarket-rest-app-0.0.1-SNAPSHOT.jar server example.yml
 '''
+
+#TODO
+
+
