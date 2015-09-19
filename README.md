@@ -12,14 +12,15 @@ Generic service to find best/nearby supplier associated to a bid. EasyMarket is 
 To test the example application run the following commands. To run the server:
 
 Bulding artifacts
-'''
+
+```
 mvn clean install
-'''
+```
 
 Start services
-'''
+```
 java -jar target/easymarket-rest-app-0.0.1-SNAPSHOT.jar server example.yml
-'''
+```
 
 #TODO
 
