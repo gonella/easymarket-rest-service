@@ -9,14 +9,14 @@ Generic service to find best/nearby supplier associated to a bid. EasyMarket is 
 
 ##Running The Application
 
-To test the example application run the following commands. To run the server run.
+To test the example application run the following commands. To run the server:
 
- -Bulding artifacts
+Bulding artifacts
 '''
 mvn clean install
 '''
 
- - Start services
+Start services
 '''
 java -jar target/easymarket-rest-app-0.0.1-SNAPSHOT.jar server example.yml
 '''
