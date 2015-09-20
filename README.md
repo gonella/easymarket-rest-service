@@ -1,4 +1,4 @@
-
+#Status
 **ON DEVELOPMENT**
 
 #Introduction
@@ -7,7 +7,10 @@ Generic service to find best/nearby supplier associated to a bid. EasyMarket is 
 
 #Architecture
 
-
+ 1. This is a rest service implementation based on http://www.dropwizard.io framework which allow developing ops-friendly, high-performance, RESTful web services. It keep your app a simple, light-weight package that lets you focus on getting things done.
+ 2. It is integrated with documentation framework swagger https://github.com/swagger-api/swagger-core. Generating the Swagger API Specification, which enables easy access to your REST API. See screenshot below for more information. 
+ 3. Integrated with database H2. 
+ 4. 
 
 #How use?
 
@@ -28,7 +31,12 @@ java -jar target/easymarket-rest-app-0.0.1-SNAPSHOT.jar server example.yml
 
 ##Executing Integration Tests
 
- 1. See maven project under -> easymarket-rest-service -> utitilies -> easymarket-rest-client
+ 1. You should guarantee your rest service is running. After that, see maven project under -> easymarket-rest-service -> utitilies -> easymarket-rest-client
+
+```
+See integration test classes under test folder: "org.easymarket.client.test.v1"
+E.g. "ITSuppliersV1Test"
+```
 
 ## REST documentation generated 
 
@@ -54,7 +62,11 @@ java -jar target/easymarket-rest-app-0.0.1-SNAPSHOT.jar db migrate example.yml
 
 * More information about dropwizard h2,	https://dropwizard.github.io/dropwizard/manual/migrations.html
 
-#TODO
+#Continuos Integration
+
+1. If you want to integrate, take a look in options below:
+ https://drone.io/
+ https://www.snap-ci.com/
 
 #More technical information: 
 
@@ -67,3 +79,6 @@ https://dzone.com/articles/dropwizard-vs-spring-boot
 http://clearthehaze.com/2014/07/migrating-from-spring-mvc-to-dropwizard/
 ```
 
+#TODO
+
+ 1. On progress
