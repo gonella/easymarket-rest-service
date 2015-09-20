@@ -31,11 +31,11 @@ java -jar target/easymarket-rest-app-0.0.1-SNAPSHOT.jar server example.yml
 ##How execute rest calls?
 
  You may have some possibilities: 
-  * Using existing integration tests
-  * Using REST swagger documentation generated. See screenshot below:
+  1. Using existing integration tests
+  2. Using REST swagger documentation generated. See screenshot below:
   ![POST Call](https://github.com/gonella/easymarket-rest-service/blob/master/easymarket-rest-service/docs/PostCallExampleViaSwagger.png "Rest documentation generated")
 
-  * Using CURL command 
+  3. Using CURL command 
 
 ##Executing Integration Tests
 
