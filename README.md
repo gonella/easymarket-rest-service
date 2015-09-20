@@ -52,7 +52,7 @@ E.g. "ITSuppliersV1Test"
 
 ![Documentation generated](https://github.com/gonella/easymarket-rest-service/blob/master/easymarket-rest-service/docs/EasymarketApiAvailableDoc.png "Rest documentation generated")
 
-## Send manual rest calls
+## Send manual rest calls by CURL
 
  * To post data into the application. Build your post data below.
 ```
