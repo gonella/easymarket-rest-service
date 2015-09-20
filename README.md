@@ -42,7 +42,7 @@ E.g. "ITSuppliersV1Test"
 
  1. Open documentation generated on runtime. http://localhost:8080/swagger	
 
-![Documentation generated](https://github.com/gonella/easymarket-rest-service/blob/master/docs/EasymarketApiAvailableDoc.png "Rest documentation generated")
+![Documentation generated](https://github.com/gonella/easymarket-rest-service/blob/master/easymarket-rest-service/docs/EasymarketApiAvailableDoc.png "Rest documentation generated")
 
 ## Send manual rest calls
 
